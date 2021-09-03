@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+*{
+    margin: 0;
+
+}
+
+.topo{
+    width: 100%;
+
+
+}
+
+.logo{
+   margin: auto;
+}
+
+.fundo-menu{
+    background-color: #808080;
+    width: 100%;
+
+
+}
+
+.menu{
+    width: 80%;
+    margin: auto;
+    color: #1c1c1c;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px;
+
+
+}
+
+
+a{
+    text-decoration: none;
+
+
+}
+
+.menu a{
+    color: #1c1c1c;
+    padding: 20px;
+
+
+
+
+}
+
+.menu a:hover{
+    background-color: #bebebe;
+
+}
+
+
+
+
+.destaque{
+    width: 100%;
+    height: 300px;
+    background-image:url(../img/computer.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+.destaque-conteudo{
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+
+
+
+
+}
+
+
+p{
+    font-family: 'Cuprum', sans-serif;
+
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Cuprum', sans-serif;
+
+}
+
+.destaque p{
+    font-size: 25px;
+    margin-top: 20px;
+    
+
+}
+
+.destaque button{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #808080;
+    border: 0px;
+    font-size: 18px;
+    
+}
+
+.destaque button a{
+    color: #fff;
+
+
+}
+/* NOTICIAS*/
+.noticias{
+    width: 78%;
+    float: left;
+}
+
+.conteudo-noticias{
+    width: 80%;
+    margin: auto;
+
+}
+
+.noticia{
+    width: 400px;
+    float: left;
+    word-wrap: break-word;
+    margin-top: 15px;
+    margin-left: 15px;
+
+}
+
+h2{
+    margin-top: 25px;
+    border-bottom: 2px solid #808080;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.mais-vistos{
+    width: 260px;
+    float: left;
+
+}
+
+.noticia-mais-vistos{
+    word-wrap: break-word;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* RODAPÉ */
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #808080;
+    margin-top: 30px;
+
+
+}
+.conteudo-rodape{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.conteudo-rodape img{
+    margin: 30px;
+    
+}
+
+/* FORMULARIO */
+
+
+.formulario{
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: right;
+
+}
+
+.formulario p{
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+textarea{
+   height: 150px;
+}
+
+
+input[type=submit]{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
